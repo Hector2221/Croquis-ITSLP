@@ -422,3 +422,25 @@ m2.addEventListener('click', () => {
 m2close.addEventListener('click', () => {
     modal_m2.classList.remove('show');
 });
+
+
+const x2 = document.getElementById('x2');
+const modal_x2 = document.getElementById('modal_x2');
+const x2close = document.getElementById('close_x2');
+x2.addEventListener('click', () => {
+    modal_x2.classList.add('show');  
+});
+x2close.addEventListener('click', () => {
+    modal_x2.classList.remove('show');
+});
+
+
+const i = document.getElementById('i');
+const modal_i = document.getElementById('modal_i');
+const iclose = document.getElementById('close_i');
+i.addEventListener('click', () => {
+    modal_i.classList.add('show');  
+});
+iclose.addEventListener('click', () => {
+    modal_i.classList.remove('show');
+});
