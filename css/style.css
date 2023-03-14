@@ -1,16 +1,22 @@
-:root{
+:root {
     --principal: #762A44;
     --Oscuro: #212121;
     --blanco: #FFF;
     --Azul: #014e82;
-    --fuentePrincipal:'Montserrat', sans-serif;
-    --grisClaro:#BDC3C7;
+    --fuentePrincipal: 'Montserrat', sans-serif;
+    --grisClaro: #BDC3C7;
 }
+
 html {
     box-sizing: border-box;
-    font-size:  62.5%; /* 1 rem = 10px */;
+    font-size: 62.5%;
+    /* 1 rem = 10px */
+    ;
 }
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
 }
 
@@ -20,64 +26,76 @@ html {
     width: 95%;
     margin: 0 auto;
 }
-h1, h2, p, a {
+
+h1,
+h2,
+p,
+a {
     font-family: var(--fuentePrincipal);
     line-height: 1;
 }
-h1{
+
+h1 {
     font-size: 2.8rem;
     font-weight: bold;
     text-transform: uppercase;
 }
+
 p {
     font-size: 1.4rem;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.center-t{
+
+.center-t {
     text-align: center;
 }
 
-.center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.img-width{
+.img-width {
     max-width: 100%;
     margin: auto auto;
 }
 
 /* navegacion */
-.header{
+.header {
     margin-bottom: 5%;
 }
-.navegacion{
+
+.navegacion {
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     background-color: var(--principal);
 }
-.min{
+
+.min {
     text-transform: none;
     font-weight: normal;
     color: var(--blanco);
     margin: 0;
     padding: 20px 0px;
 }
-h1 span{
+
+h1 span {
     font-weight: bold;
 }
+
 @media (max-width: 768px) {
-    .min{
+    .min {
         font-size: 1.8rem;
     }
 }
 
 /* buscador */
-.buscador{
+.buscador {
     width: 55%;
     height: 45px;
     font-size: 20px;
@@ -85,25 +103,26 @@ h1 span{
     border-radius: 10px;
     border: 1px solid var(--grisClaro);
 }
+
 .active {
-    background:var(--principal);
+    background: var(--principal);
     opacity: .98;
     position: fixed;
     width: 100%;
     z-index: 10;
-    margin-top: -10.6%;
-  }
+    top: 0;
+}
 
 /* Mapa */
-.mapa{
-    width:100%;
+.mapa {
+    width: 100%;
     margin: auto;
     margin-bottom: 5rem;
     overflow: hidden;
 }
 
 @media (max-width: 1098px) {
-    .mapa{
+    .mapa {
         overflow: scroll;
     }
 }
@@ -124,16 +143,16 @@ button:hover {
     cursor: pointer;
 }
 
-.botones{
+.botones {
     width: 1100px;
 }
 
-.filtro{
+.filtro {
     visibility: hidden;
 }
 
 /* estilo de botones de salones */
-.h{
+.h {
     width: 50px;
     height: 55px;
     border-radius: 4px;
@@ -143,7 +162,7 @@ button:hover {
     left: 253px;
 }
 
-.h1{
+.h1 {
     width: 60px;
     height: 45px;
     border-radius: 4px;
@@ -151,8 +170,9 @@ button:hover {
     position: relative;
     top: -415px;
     left: 665px;
-  }
-.h2{
+}
+
+.h2 {
     width: 70px;
     height: 45px;
     border-radius: 4px;
@@ -160,8 +180,9 @@ button:hover {
     position: relative;
     top: -274px;
     left: 770px;
-  }
-  .h3{
+}
+
+.h3 {
     width: 45px;
     height: 70px;
     border-radius: 4px;
@@ -170,8 +191,9 @@ button:hover {
     top: -340px;
     left: 860px;
     transform: scale(1.1);
-  }
-  .h5{
+}
+
+.h5 {
     width: 75px;
     height: 60px;
     border-radius: 4px;
@@ -179,8 +201,9 @@ button:hover {
     position: relative;
     top: -405px;
     left: 695px;
-  }
-.h6{
+}
+
+.h6 {
     width: 45px;
     height: 65px;
     border-radius: 4px;
@@ -188,9 +211,9 @@ button:hover {
     position: relative;
     top: -340px;
     left: 835px;
-  }
+}
 
-.o2{
+.o2 {
     width: 50px;
     height: 40px;
     border-radius: 4px;
@@ -200,7 +223,7 @@ button:hover {
     left: 520px;
 }
 
-.o5{
+.o5 {
     width: 70px;
     height: 40px;
     border-radius: 4px;
@@ -210,7 +233,7 @@ button:hover {
     left: 365px;
 }
 
-.o{
+.o {
     width: 50px;
     height: 20px;
     border-radius: 4px;
@@ -219,7 +242,8 @@ button:hover {
     top: -375px;
     left: 305px;
 }
-.g{
+
+.g {
     width: 50px;
     height: 40px;
     border-radius: 4px;
@@ -228,7 +252,8 @@ button:hover {
     top: -220px;
     left: 198px;
 }
-.g2{
+
+.g2 {
     width: 100px;
     height: 25px;
     border-radius: 4px;
@@ -239,7 +264,7 @@ button:hover {
     transform: scaleX(1.1);
 }
 
-.n{
+.n {
     width: 30px;
     height: 65px;
     border-radius: 4px;
@@ -248,7 +273,8 @@ button:hover {
     top: -160px;
     left: -45px;
 }
-.d{
+
+.d {
     width: 30px;
     height: 55px;
     border-radius: 4px;
@@ -257,7 +283,8 @@ button:hover {
     top: -240px;
     left: -65px;
 }
-.j{
+
+.j {
     width: 30px;
     height: 55px;
     border-radius: 4px;
@@ -266,7 +293,8 @@ button:hover {
     top: -320px;
     left: -110px;
 }
-.k{
+
+.k {
     width: 30px;
     height: 73px;
     border-radius: 4px;
@@ -275,7 +303,8 @@ button:hover {
     top: -345px;
     left: -220px;
 }
-.e{
+
+.e {
     width: 80px;
     height: 25px;
     border-radius: 4px;
@@ -284,7 +313,8 @@ button:hover {
     top: -270px;
     left: -260px;
 }
-.c{
+
+.c {
     width: 30px;
     height: 78px;
     border-radius: 4px;
@@ -293,7 +323,8 @@ button:hover {
     top: -185px;
     left: -315px;
 }
-.b{
+
+.b {
     width: 30px;
     height: 78px;
     border-radius: 4px;
@@ -302,7 +333,8 @@ button:hover {
     top: -160px;
     left: -402px;
 }
-.a{
+
+.a {
     width: 30px;
     height: 78px;
     border-radius: 4px;
@@ -311,7 +343,8 @@ button:hover {
     top: -200px;
     left: -492px;
 }
-.f{
+
+.f {
     width: 30px;
     height: 55px;
     border-radius: 4px;
@@ -320,7 +353,8 @@ button:hover {
     top: -293px;
     left: -510px;
 }
-.m{
+
+.m {
     width: 30px;
     height: 70px;
     border-radius: 4px;
@@ -329,7 +363,8 @@ button:hover {
     top: -400px;
     left: -527px;
 }
-.z{
+
+.z {
     width: 30px;
     height: 40px;
     border-radius: 4px;
@@ -338,7 +373,8 @@ button:hover {
     top: -393px;
     left: 424px;
 }
-.v{
+
+.v {
     width: 60px;
     height: 65px;
     border-radius: 4px;
@@ -347,7 +383,8 @@ button:hover {
     top: -328px;
     left: 278px;
 }
-.x{
+
+.x {
     width: 30px;
     height: 55px;
     border-radius: 4px;
@@ -356,7 +393,8 @@ button:hover {
     top: -400px;
     left: 215px;
 }
-.w{
+
+.w {
     width: 30px;
     height: 55px;
     border-radius: 4px;
@@ -365,7 +403,8 @@ button:hover {
     top: -405px;
     left: 117px;
 }
-.q{
+
+.q {
     width: 30px;
     height: 55px;
     border-radius: 4px;
@@ -374,7 +413,8 @@ button:hover {
     top: -335px;
     left: 73px;
 }
-.t{
+
+.t {
     width: 30px;
     height: 50px;
     border-radius: 4px;
@@ -383,7 +423,8 @@ button:hover {
     top: -405px;
     left: 15px;
 }
-.r{
+
+.r {
     width: 30px;
     height: 50px;
     border-radius: 4px;
@@ -392,7 +433,8 @@ button:hover {
     top: -345px;
     left: -53px;
 }
-.u{
+
+.u {
     width: 45px;
     height: 40px;
     border-radius: 4px;
@@ -401,7 +443,8 @@ button:hover {
     top: -450px;
     left: -130px;
 }
-.s{
+
+.s {
     width: 30px;
     height: 75px;
     border-radius: 4px;
@@ -410,7 +453,8 @@ button:hover {
     top: -372px;
     left: -173px;
 }
-.r2{
+
+.r2 {
     width: 30px;
     height: 60px;
     border-radius: 4px;
@@ -419,7 +463,8 @@ button:hover {
     top: -280px;
     left: -176px;
 }
-.q2{
+
+.q2 {
     width: 30px;
     height: 45px;
     border-radius: 4px;
@@ -429,7 +474,7 @@ button:hover {
     left: -173px;
 }
 
-.p{
+.p {
     width: 70px;
     height: 50px;
     border-radius: 4px;
@@ -438,7 +483,8 @@ button:hover {
     top: -210px;
     left: -97px;
 }
-.f2{
+
+.f2 {
     width: 30px;
     height: 30px;
     border-radius: 4px;
@@ -448,7 +494,7 @@ button:hover {
     left: -5px;
 }
 
-.m2{
+.m2 {
     width: 30px;
     height: 20px;
     border-radius: 4px;
@@ -457,7 +503,8 @@ button:hover {
     top: -420px;
     left: 2px;
 }
-.l{
+
+.l {
     width: 45px;
     height: 30px;
     border-radius: 4px;
@@ -467,7 +514,8 @@ button:hover {
     top: -292px;
     left: -132px;
 }
-.x2{
+
+.x2 {
     width: 40px;
     height: 20px;
     border-radius: 4px;
@@ -477,7 +525,8 @@ button:hover {
     top: -490px;
     left: -290px;
 }
-.i{
+
+.i {
     width: 30px;
     height: 20px;
     border-radius: 4px;
@@ -487,29 +536,30 @@ button:hover {
     top: -410px;
     left: 62px;
 }
+
 /* estilo de ventana modal */
-  .modal-container {
+.modal-container {
     display: flex;
     background-color: rgba(0, 0, 0, 0.3);
     align-items: center;
     justify-content: center;
     position: fixed;
     pointer-events: none;
-    opacity: 0;  
+    opacity: 0;
     top: 0;
     left: 0;
     height: 100vh;
     width: 100vw;
     transition: opacity 0.3s ease;
     margin-top: 2%;
-  }
-  
-  .show {
+}
+
+.show {
     pointer-events: auto;
     opacity: 1;
-  }
-  
-  .modal {
+}
+
+.modal {
     background-color: #fff;
     width: 600px;
     max-width: 100%;
@@ -517,23 +567,25 @@ button:hover {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
-    
-  } 
-  @media (min-width: 768px) {
+
+}
+
+@media (min-width: 768px) {
     .modal-v2 {
         width: 1000px;
         max-width: 100%;
     }
+
     .modal-v3 {
         width: 800px;
         max-width: 100%;
     }
-  }
+}
 
 
 
-  /* footer */
-.footer{
+/* footer */
+.footer {
     background: var(--Oscuro);
     height: 10rem;
     color: var(--blanco);
@@ -550,4 +602,3 @@ button:hover {
 .Copyright p {
     font-size: 1.5rem;
 }
-
