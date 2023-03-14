@@ -1,836 +1,825 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Croquis ITSLP</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="shortcut icon" href="img/favicon-32x32.png" type="icon/png">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-  <!-- navegacion & header -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="icon/png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- navegacion & header -->
     <header class="header">
-       <img class="center img-width" src="img/logotec.png" alt="">
-        <div class="js-scroll">
-          <nav class="navegacion">
-            <h1 class="min">Croquis <span>ITSLP</span></h1>
-            <input class="buscador" type="text" name="buscador" id="buscador" placeholder="Buscar salon o edificio...">
-          </nav>  
-        </div>
+      <img class="center img-width" src="img/logotec.png" alt="" />
+      <div class="js-scroll">
+        <nav class="navegacion">
+          <h1 class="min">Croquis <span>ITSLP</span></h1>
+          <input
+            class="buscador"
+            type="text"
+            name="buscador"
+            id="buscador"
+            placeholder="Buscar salon o edificio..."
+          />
+        </nav>
+      </div>
     </header>
 
     <!-- Croquis del ITSLP -->
     <main class="contenedor">
-        <div class="mapa">
-          <img loading="lazy" class="croquis " id="croquis" src="img/edificios/CROQUIS ITSLP 16.jpg" width="1100px" height="660px" alt="">
-          <!-- botones -->
-            <div id="botones" class="botones">
-              <button id="h3" class="h3 articulo">
-                H3
-                <p style="visibility: hidden; position: absolute;">
-                  h3-1
-                  h3-2
-                  h3-3
-                  h3-4
-                  h3-5
-                  h3-6
-                  h3-7
-                  h3-8
-                  h3-9
-                  h3-10
-                  h3-11
-                  h3-12
-                  h3-13
-                  h3-14
-                  edificio h3
-                </p>
-              </button>
+      <div class="mapa">
+        <img
+          loading="lazy"
+          class="croquis"
+          id="croquis"
+          src="img/edificios/CROQUIS ITSLP 16.jpg"
+          width="1100px"
+          height="660px"
+          alt=""
+        />
+        <!-- botones -->
+        <div id="botones" class="botones">
+          <button id="h3" class="h3 articulo">
+            H3
+            <p style="visibility: hidden; position: absolute">
+              h3-1 h3-2 h3-3 h3-4 h3-5 h3-6 h3-7 h3-8 h3-9 h3-10 h3-11 h3-12
+              h3-13 h3-14 edificio h3
+            </p>
+          </button>
 
-              <button id="h2" class="h2 articulo">
-                Centro de computo 
-                <p style="visibility: hidden; position: absolute;">
-                  LTI1
-                  LTI-1
-                  LTI2 
-                  LTI-2
-                  Oficinas distancia
-                  Oficinas de distancia
-                  Sala de capacitacion 
-                  Area de mantenimiento
-                  Coordinacion de soporte
-                  Coordinacionde desarrollo 
-                  Laboratorio de reservados
-                  Sala PAFP
-                  Sistemas y computacion
-                </p>
-              </button>
+          <button id="h2" class="h2 articulo">
+            Centro de computo
+            <p style="visibility: hidden; position: absolute">
+              LTI1 LTI-1 LTI2 LTI-2 Oficinas distancia Oficinas de distancia
+              Sala de capacitacion Area de mantenimiento Coordinacion de soporte
+              Coordinacionde desarrollo Laboratorio de reservados Sala PAFP
+              Sistemas y computacion
+            </p>
+          </button>
 
-              <button id="h6" class="h6 articulo">
-                H6 
-                <p style="visibility: hidden; position: absolute;">
-                  Posgrados
-                  h6-1
-                  h6-2
-                  h6-3
-                  h6-4
-                  h6-5
-                  h6-6
-                  h6-7
-                  h6-8
-                  h6-9
-                  h6-10
-                  h6-11
-                  h6-12
-                  h6-13
-                  h6-14
-                  edificio h6
-                </p>
-              </button>
+          <button id="h6" class="h6 articulo">
+            H6
+            <p style="visibility: hidden; position: absolute">
+              Posgrados h6-1 h6-2 h6-3 h6-4 h6-5 h6-6 h6-7 h6-8 h6-9 h6-10 h6-11
+              h6-12 h6-13 h6-14 edificio h6
+            </p>
+          </button>
 
-              <button id="h1" class="h1 articulo">
-                Ingles
-                 <p style="visibility: hidden; position: absolute;">
-                  classroom 1
-                  classroom 2
-                  classroom 3
-                  classroom 4
-                  classroom 5
-                  classroom 6
-                 </p>
-              </button>
+          <button id="h1" class="h1 articulo">
+            Ingles
+            <p style="visibility: hidden; position: absolute">
+              classroom 1 classroom 2 classroom 3 classroom 4 classroom 5
+              classroom 6
+            </p>
+          </button>
 
-              <button id="h5" class="h5 articulo">
-                Biblioteca
-                <p style="visibility: hidden; position: absolute;">
-                  videoteca
-                  usos multiples
-                  CL
-                  secretaria
-                  sala de informatica
-                  servicios especiales
-                  cubiculos
-                 </p>
-              </button>
-              
-              <button id="o2" class="o2 articulo">
-                O2
-                <p style="visibility: hidden; position: absolute;">
-                  Laboratorio de mecanica 2
-                  laboratorio de ingenieria mecanica 2
-                  laboratorio de ing mecanica 2
-                  edificio o2
-                 </p>
-              </button>
+          <button id="h5" class="h5 articulo">
+            Biblioteca
+            <p style="visibility: hidden; position: absolute">
+              videoteca usos multiples CL secretaria sala de informatica
+              servicios especiales cubiculos
+            </p>
+          </button>
 
-              <button id="o5" class="o5 articulo">Alberca</button>  
+          <button id="o2" class="o2 articulo">
+            O2
+            <p style="visibility: hidden; position: absolute">
+              Laboratorio de mecanica 2 laboratorio de ingenieria mecanica 2
+              laboratorio de ing mecanica 2 edificio o2
+            </p>
+          </button>
 
-              <button id="o" class="o articulo">
-                O
-                <p style="visibility: hidden; position: absolute;">
-                  departamento de mantenimiento
-                  edificio o
-                 </p>
-              </button>
+          <button id="o5" class="o5 articulo">Alberca</button>
 
-              <button id="h" class="h articulo">
-                h
-                <p style="visibility: hidden; position: absolute;">
-                  Laboratorio de mecanica 1
-                  Laboratorio mecanica 1
-                  Laboratorio de ing mecanica
-                  edificio h
-                </p>
-              </button>
+          <button id="o" class="o articulo">
+            O
+            <p style="visibility: hidden; position: absolute">
+              departamento de mantenimiento edificio o
+            </p>
+          </button>
 
-              <button id="g" class="g articulo">
-                g
-                <p style="visibility: hidden; position: absolute;">
-                  Modulo cultural
-                  Modulo de cultura
-                  edificio g
-                </p>
-              </button> 
+          <button id="h" class="h articulo">
+            h
+            <p style="visibility: hidden; position: absolute">
+              Laboratorio de mecanica 1 Laboratorio mecanica 1 Laboratorio de
+              ing mecanica edificio h
+            </p>
+          </button>
 
-              <button id="g2" class="g2 articulo">
-                g2
-                <p style="visibility: hidden; position: absolute;">
-                  laboratorio de ing electrica  
-                  laboratorio de ing electrica 
-                  centro de capacitacion en automatizacion industrial 
-                  edificio g2
-                </p>
-              </button> 
+          <button id="g" class="g articulo">
+            g
+            <p style="visibility: hidden; position: absolute">
+              Modulo cultural Modulo de cultura edificio g
+            </p>
+          </button>
 
-              <button id="n" class="n articulo">
-                n
-                <p style="visibility: hidden; position: absolute;">
-                  n-1
-                  n-2
-                  n-3
-                  n-4
-                  n-5
-                  n-6
-                  n1
-                  n2
-                  n3
-                  n4
-                  n5
-                  n6
-                  edificio n
-                </p>
-              </button> 
+          <button id="g2" class="g2 articulo">
+            g2
+            <p style="visibility: hidden; position: absolute">
+              laboratorio de ing electrica laboratorio de ing electrica centro
+              de capacitacion en automatizacion industrial edificio g2
+            </p>
+          </button>
 
-              <button id="d" class="d articulo">
-                d
-                <p style="visibility: hidden; position: absolute;">
-                  departamento metal mecanica
-                  edificio d
-                </p>
-              </button> 
+          <button id="n" class="n articulo">
+            n
+            <p style="visibility: hidden; position: absolute">
+              n-1 n-2 n-3 n-4 n-5 n-6 n1 n2 n3 n4 n5 n6 edificio n
+            </p>
+          </button>
 
-              <button id="j" class="j articulo">
-                j
-                <p style="visibility: hidden; position: absolute;">
-                  j-4
-                  oficinas LTIs
-                  LTI-4
-                  LTI-3 
-                  edificio j
-                </p>
-              </button> 
-              
-              <button id="k" class="k articulo">
-                k
-                <p style="visibility: hidden; position: absolute;">
-                  Laboratorio de quimica
-                  cubiculos
-                  edificio k
-                </p>
-              </button> 
+          <button id="d" class="d articulo">
+            d
+            <p style="visibility: hidden; position: absolute">
+              departamento metal mecanica edificio d
+            </p>
+          </button>
 
-              <button id="e" class="e articulo">
-                e
-                <p style="visibility: hidden; position: absolute;">
-                  sala audiovisual
-                  Radiotec
-                  edificio e
-                </p>
-              </button>
+          <button id="j" class="j articulo">
+            j
+            <p style="visibility: hidden; position: absolute">
+              j-4 oficinas LTIs LTI-4 LTI-3 edificio j
+            </p>
+          </button>
 
-              <button id="c" class="c articulo">
-                c
-                <p style="visibility: hidden; position: absolute;">
-                  c-1
-                  c-2
-                  c-3
-                  c-4
-                  c-5
-                  c-6
-                  c1
-                  c2
-                  c3
-                  c4
-                  c5
-                  c6
-                  aulas c
-                  edificio c
-                </p>
-              </button>
+          <button id="k" class="k articulo">
+            k
+            <p style="visibility: hidden; position: absolute">
+              Laboratorio de quimica cubiculos edificio k
+            </p>
+          </button>
 
-              <button id="b" class="b articulo">
-                b
-                <p style="visibility: hidden; position: absolute;">
-                  b-1
-                  b-2
-                  b-3
-                  b-4
-                  b-5
-                  b-6
-                  b1 
-                  b2 
-                  b3
-                  b4
-                  b5
-                  b6
-                  aulas b
-                  edificio b
-                </p>
-              </button>
+          <button id="e" class="e articulo">
+            e
+            <p style="visibility: hidden; position: absolute">
+              sala audiovisual Radiotec edificio e
+            </p>
+          </button>
 
-              <button id="a" class="a articulo">
-                a
-                <p style="visibility: hidden; position: absolute;">
-                  a-3
-                  a-4
-                  a3
-                  a4
-                  cubiculos
-                  area de catedraticos
-                  delegacion sindical
-                  D-V-88
-                  edificio a
-                </p>
-              </button>
+          <button id="c" class="c articulo">
+            c
+            <p style="visibility: hidden; position: absolute">
+              c-1 c-2 c-3 c-4 c-5 c-6 c1 c2 c3 c4 c5 c6 aulas c edificio c
+            </p>
+          </button>
 
-              <button id="f" class="f articulo">
-                f
-                <p style="visibility: hidden; position: absolute;">
-                  Laboratorio de turismo
-                  Laboratorio de administracion
-                  gastronomia 
-                  edificio f
-                </p>
-              </button>
+          <button id="b" class="b articulo">
+            b
+            <p style="visibility: hidden; position: absolute">
+              b-1 b-2 b-3 b-4 b-5 b-6 b1 b2 b3 b4 b5 b6 aulas b edificio b
+            </p>
+          </button>
 
-              <button id="m" class="m articulo">
-                m
-                <p style="visibility: hidden; position: absolute;">
-                  Laboratorio de fisica
-                  Laboratorio fisica
-                  edificio m
-                </p>
-              </button>
-              <br>
+          <button id="a" class="a articulo">
+            a
+            <p style="visibility: hidden; position: absolute">
+              a-3 a-4 a3 a4 cubiculos area de catedraticos delegacion sindical
+              D-V-88 edificio a
+            </p>
+          </button>
 
-              <button id="z" class="z articulo">
-                z
-                <p style="visibility: hidden; position: absolute;">
-                  cesa 
-                  lti-5
-                  lti-5z 
-                  edificio z
-                </p>
-              </button>
+          <button id="f" class="f articulo">
+            f
+            <p style="visibility: hidden; position: absolute">
+              Laboratorio de turismo Laboratorio de administracion gastronomia
+              edificio f
+            </p>
+          </button>
 
-              <button id="v" class="v articulo">
-                v
-                <p style="visibility: hidden; position: absolute;">
-                  sala 1
-                  sala 2
-                  sala 3
-                  sala 4
-                  sala de titulacion
-                  v-1
-                  v-2
-                  v-3
-                  v-4
-                  v-5
-                  v1
-                  v2 
-                  v3
-                  v4
-                  v5
-                  edificio v
-                </p>
-              </button>
+          <button id="m" class="m articulo">
+            m
+            <p style="visibility: hidden; position: absolute">
+              Laboratorio de fisica Laboratorio fisica edificio m
+            </p>
+          </button>
+          <br />
 
-              <button id="x" class="x articulo">
-                x
-                <p style="visibility: hidden; position: absolute;">
-                  x-1
-                  x-2
-                  x-3
-                  x-4
-                  x-5
-                  x-6
-                  x-7
-                  x-8
-                  x1 
-                  x2
-                  x3 
-                  x4 
-                  x5 
-                  x6 
-                  x7 
-                  x8 
-                  edificio x
-                </p>
-              </button>
+          <button id="z" class="z articulo">
+            z
+            <p style="visibility: hidden; position: absolute">
+              cesa lti-5 lti-5z edificio z
+            </p>
+          </button>
 
-              <button id="w" class="w articulo">
-                w
-                <p style="visibility: hidden; position: absolute;">
-                  w-1
-                  w-2
-                  w-3
-                  w-4
-                  w-5
-                  w-6
-                  w-7
-                  w-8
-                  w1 
-                  w2 
-                  w3 
-                  w4 
-                  w5 
-                  w6 
-                  w7 
-                  w8 
-                  edificio w
-                </p>
-              </button>
+          <button id="v" class="v articulo">
+            v
+            <p style="visibility: hidden; position: absolute">
+              sala 1 sala 2 sala 3 sala 4 sala de titulacion v-1 v-2 v-3 v-4 v-5
+              v1 v2 v3 v4 v5 edificio v
+            </p>
+          </button>
 
-              <button id="q" class="q articulo">
-                q
-                <p style="visibility: hidden; position: absolute;">
-                  q-4
-                  q-5
-                  q-6
-                  q-7
-                  q4
-                  q5
-                  q7
-                  q6
-                  cubiculos
-                  departamento de licenciaturas
-                  departamento de administracion
-                  departamento de turismo
-                  edificio q
-                </p>
-              </button>
+          <button id="x" class="x articulo">
+            x
+            <p style="visibility: hidden; position: absolute">
+              x-1 x-2 x-3 x-4 x-5 x-6 x-7 x-8 x1 x2 x3 x4 x5 x6 x7 x8 edificio x
+            </p>
+          </button>
 
-              <button id="t" class="t articulo">
-                t
-                <p style="visibility: hidden; position: absolute;">
-                  laboratorio de manufactura ingenieria industrial
-                  ingenieria industrial
-                  edificio t
-                </p>
-              </button>
+          <button id="w" class="w articulo">
+            w
+            <p style="visibility: hidden; position: absolute">
+              w-1 w-2 w-3 w-4 w-5 w-6 w-7 w-8 w1 w2 w3 w4 w5 w6 w7 w8 edificio w
+            </p>
+          </button>
 
-              <button id="r" class="r articulo">
-                r
-                <p style="visibility: hidden; position: absolute;">
-                  r-11 
-                  r-12 
-                  r-13 
-                  r11 
-                  r12 
-                  r13 
-                  sala audiovisual 
-                  edificio r
-                </p>
-              </button>
+          <button id="q" class="q articulo">
+            q
+            <p style="visibility: hidden; position: absolute">
+              q-4 q-5 q-6 q-7 q4 q5 q7 q6 cubiculos departamento de
+              licenciaturas departamento de administracion departamento de
+              turismo edificio q
+            </p>
+          </button>
 
-              <button id="u" class="u articulo">
-                u
-                <p style="visibility: hidden; position: absolute;">
-                  laboratorio de ingenieria electronica
-                  laboratorio de ing electronica
-                  edificio u
-                </p>
-              </button>
+          <button id="t" class="t articulo">
+            t
+            <p style="visibility: hidden; position: absolute">
+              laboratorio de manufactura ingenieria industrial ingenieria
+              industrial edificio t
+            </p>
+          </button>
 
-              <button id="s" class="s articulo">
-                s
-                <p style="visibility: hidden; position: absolute;">
-                  s-1
-                  s-2
-                  s-3
-                  s1
-                  s2
-                  s3
-                  departamento de ingenierias
-                  departamento de electronica
-                  departamento de electronica
-                  departamento de mecatronica 
-                  edificio s
-                </p>
-              </button>
+          <button id="r" class="r articulo">
+            r
+            <p style="visibility: hidden; position: absolute">
+              r-11 r-12 r-13 r11 r12 r13 sala audiovisual edificio r
+            </p>
+          </button>
 
-              <button id="r2" class="r2 articulo">
-                r2
-                <p style="visibility: hidden; position: absolute;">
-                  r-1
-                  r-2
-                  r-3
-                  r-4
-                  r-5
-                  r-6
-                  r-7
-                  r-8
-                  r-9
-                  r-10
-                  r1
-                  r2
-                  r3
-                  r4
-                  r5
-                  r6
-                  r7
-                  r8
-                  r9
-                  r10
-                  edificio r2
-                  aulas r
-                </p>
-              </button>   
+          <button id="u" class="u articulo">
+            u
+            <p style="visibility: hidden; position: absolute">
+              laboratorio de ingenieria electronica laboratorio de ing
+              electronica edificio u
+            </p>
+          </button>
 
-              <button id="q2" class="q2 articulo">
-                q2
-                <p style="visibility: hidden; position: absolute;">
-                  departamento de ingenieria industrial
-                  departamento de ing industrial
-                  edificio q2
-                </p>
-              </button>
+          <button id="s" class="s articulo">
+            s
+            <p style="visibility: hidden; position: absolute">
+              s-1 s-2 s-3 s1 s2 s3 departamento de ingenierias departamento de
+              electronica departamento de electronica departamento de
+              mecatronica edificio s
+            </p>
+          </button>
 
-              <button id="p" class="p articulo">
-                Edificio Principal
-                <p style="visibility: hidden; position: absolute;">
-                  servicios escolares
-                  recursos humanos
-                  comunicacion y difusion
-                  recursos financieros
-                  mantenimiento de equipo
-                  apoyo a titulacion y Coordinacion 
-                  division de estudios profesionales 
-                  direccion
-                  subdireccion
-                  desarrollo academico
-                  departamento de planeacion 
-                </p>
-              </button>
+          <button id="r2" class="r2 articulo">
+            r2
+            <p style="visibility: hidden; position: absolute">
+              r-1 r-2 r-3 r-4 r-5 r-6 r-7 r-8 r-9 r-10 r1 r2 r3 r4 r5 r6 r7 r8
+              r9 r10 edificio r2 aulas r
+            </p>
+          </button>
 
-              <button id="f2" class="f2 articulo">
-                f2
-                <p style="visibility: hidden; position: absolute;">
-                  cubiculo
-                  edificio f2
-                </p>
-              </button>
+          <button id="q2" class="q2 articulo">
+            q2
+            <p style="visibility: hidden; position: absolute">
+              departamento de ingenieria industrial departamento de ing
+              industrial edificio q2
+            </p>
+          </button>
 
-              <button id="m2" class="m2 articulo">
-                m2
-                <p style="visibility: hidden; position: absolute;">
-                  unidad medica
-                  medico
-                  edificio m2
-                </p>
-              </button>
+          <button id="p" class="p articulo">
+            Edificio Principal
+            <p style="visibility: hidden; position: absolute">
+              servicios escolares recursos humanos comunicacion y difusion
+              recursos financieros mantenimiento de equipo apoyo a titulacion y
+              Coordinacion division de estudios profesionales direccion
+              subdireccion desarrollo academico departamento de planeacion
+            </p>
+          </button>
 
-              <button id="l" class="l articulo">
-                L
-                <p style="visibility: hidden; position: absolute;">
-                  cafeteria
-                  edificio L
-                </p>
-              </button>
+          <button id="f2" class="f2 articulo">
+            f2
+            <p style="visibility: hidden; position: absolute">
+              cubiculo edificio f2
+            </p>
+          </button>
 
-              <button id="x2" class="x2 articulo">
-                x2
-                <p style="visibility: hidden; position: absolute;">
-                  acondicionamiento fisico
-                  gimnasio
-                  gym
-                  edificio x2
-                </p>
-              </button>
+          <button id="m2" class="m2 articulo">
+            m2
+            <p style="visibility: hidden; position: absolute">
+              unidad medica medico edificio m2
+            </p>
+          </button>
 
-              <button id="i" class="i articulo">
-                i
-                <p style="visibility: hidden; position: absolute;">
-                  subestacion e hidroneumatico
-                  edificio i
-                </p>
-              </button>
+          <button id="l" class="l articulo">
+            L
+            <p style="visibility: hidden; position: absolute">
+              cafeteria edificio L
+            </p>
+          </button>
 
+          <button id="x2" class="x2 articulo">
+            x2
+            <p style="visibility: hidden; position: absolute">
+              acondicionamiento fisico gimnasio gym edificio x2
+            </p>
+          </button>
 
-            </div>
+          <button id="i" class="i articulo">
+            i
+            <p style="visibility: hidden; position: absolute">
+              subestacion e hidroneumatico edificio i
+            </p>
+          </button>
         </div>
+      </div>
     </main>
 
-<!-- modals -->
+    <!-- modals -->
     <div id="modal_h1" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/LenguasExtrangeras.jpg" class="center img-width" alt="">
-          <button id="close_h1">Cerrar</button>
-        </div>
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/LenguasExtrangeras.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_h1">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_h" class="modal-container">
-        <div class="modal"> 
-          <img loading="lazy" src="img/edificios/H.jpg" class="center img-width" alt="">
-          <button id="close_h">Cerrar</button>
-        </div>
+    <div id="modal_h" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/H.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_h">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_h2" class="modal-container">
-        <div class="modal modal-v2 "> 
-          <h1>Centro de computo</h1>
-          <img loading="lazy" src="img/edificios/computo.jpg" class="center img-width" alt="">
-          <button id="close_h2">Cerrar</button>
-        </div>
+    <div id="modal_h2" class="modal-container">
+      <div class="modal modal-v2">
+        <h1>Centro de computo</h1>
+        <img
+          loading="lazy"
+          src="img/edificios/computo.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_h2">Cerrar</button>
       </div>
+    </div>
 
     <div id="modal_h3" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/H3.jpg" class="center img-width" alt="">
-          <button id="close_h3">Cerrar</button>
-        </div>
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/H3.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_h3">Cerrar</button>
       </div>
-      
-      <div id="modal_h5" class="modal-container">
-        <div class="modal modal-v2 ">
-          <h1>Biblioteca</h1>
-          <img loading="lazy" src="img/edificios/biblioteca.jpg"  class="center img-width" alt="">
-          <button id="close_h5">Cerrar</button>
-        </div>
-      </div>
-    
-      <div id="modal_h6" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/H6.jpg" class="center img-width" alt="">
-          <button id="close_h6">Cerrar</button>
-        </div>
-      </div>
+    </div>
 
-      <div id="modal_o2" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/O2.jpg" class="center img-width" alt="">
-          <button id="close_o2">Cerrar</button>
-        </div>
+    <div id="modal_h5" class="modal-container">
+      <div class="modal modal-v2">
+        <h1>Biblioteca</h1>
+        <img
+          loading="lazy"
+          src="img/edificios/biblioteca.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_h5">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_o5" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/O5 alberca.jpg" class="center img-width" alt="">
-          <button id="close_o5">Cerrar</button>
-        </div>
+    <div id="modal_h6" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/H6.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_h6">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_o" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/O.jpg" class="center img-width" alt="">
-          <button id="close_o">Cerrar</button>
-        </div>
+    <div id="modal_o2" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/O2.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_o2">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_g" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/G.jpg" class="center img-width" alt="">
-          <button id="close_g">Cerrar</button>
-        </div>
+    <div id="modal_o5" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/O5 alberca.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_o5">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_g2" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/G2.jpg" class="center img-width" alt="">
-          <button id="close_g2">Cerrar</button>
-        </div>
+    <div id="modal_o" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/O.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_o">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_n" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/N.jpg" class="center img-width" alt="">
-          <button id="close_n">Cerrar</button>
-        </div>
+    <div id="modal_g" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/G.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_g">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_d" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/D.jpg" class="center img-width" alt="">
-          <button id="close_d">Cerrar</button>
-        </div>
+    <div id="modal_g2" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/G2.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_g2">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_j" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/J.jpg" class="center img-width" alt="">
-          <button id="close_j">Cerrar</button>
-        </div>
+    <div id="modal_n" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/N.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_n">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_k" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/K.jpg" class="center img-width" alt="">
-          <button id="close_k">Cerrar</button>
-        </div>
+    <div id="modal_d" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/D.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_d">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_e" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/E.jpg" class="center img-width" alt="">
-          <button id="close_e">Cerrar</button>
-        </div>
+    <div id="modal_j" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/J.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_j">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_c" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/C.jpg" class="center img-width" alt="">
-          <button id="close_c">Cerrar</button>
-        </div>
+    <div id="modal_k" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/K.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_k">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_b" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/B.jpg" class="center img-width" alt="">
-          <button id="close_b">Cerrar</button>
-        </div>
+    <div id="modal_e" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/E.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_e">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_a" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/A.jpg" class="center img-width" alt="">
-          <button id="close_a">Cerrar</button>
-        </div>
+    <div id="modal_c" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/C.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_c">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_f" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/F.jpg" class="center img-width" alt="">
-          <button id="close_f">Cerrar</button>
-        </div>
+    <div id="modal_b" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/B.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_b">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_m" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/M.jpg" class="center img-width" alt="">
-          <button id="close_m">Cerrar</button>
-        </div>
+    <div id="modal_a" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/A.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_a">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_l" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/L.jpg" class="center img-width" alt="">
-          <button id="close_l">Cerrar</button>
-        </div>
+    <div id="modal_f" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/F.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_f">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_z" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/Z.jpg" class="center img-width" alt="">
-          <button id="close_z">Cerrar</button>
-        </div>
+    <div id="modal_m" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/M.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_m">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_v" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/V.jpg" class="center img-width" alt="">
-          <button id="close_v">Cerrar</button>
-        </div>
+    <div id="modal_l" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/L.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_l">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_x" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/X.jpg" class="center img-width" alt="">
-          <button id="close_x">Cerrar</button>
-        </div>
+    <div id="modal_z" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/Z.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_z">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_w" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/W.jpg" class="center img-width" alt="">
-          <button id="close_w">Cerrar</button>
-        </div>
+    <div id="modal_v" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/V.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_v">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_q" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/Q.jpg" class="center img-width" alt="">
-          <button id="close_q">Cerrar</button>
-        </div>
+    <div id="modal_x" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/X.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_x">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_t" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/T.jpg" class="center img-width" alt="">
-          <button id="close_t">Cerrar</button>
-        </div>
+    <div id="modal_w" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/W.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_w">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_r" class="modal-container">
-        <div class="modal">
-          <h1>Edificio r</h1>
-          <img loading="lazy" src="img/edificios/R.jpg" class="center img-width" alt="">
-          <button id="close_r">Cerrar</button>
-        </div>
+    <div id="modal_q" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/Q.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_q">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_u" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/U.jpg" class="center img-width" alt="">
-          <button id="close_u">Cerrar</button>
-        </div>
+    <div id="modal_t" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/T.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_t">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_s" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/S.jpg" class="center img-width" alt="">
-          <button id="close_s">Cerrar</button>
-        </div>
+    <div id="modal_r" class="modal-container">
+      <div class="modal">
+        <h1>Edificio r</h1>
+        <img
+          loading="lazy"
+          src="img/edificios/R.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_r">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_r2" class="modal-container">
-        <div class="modal">
-          <h1>Edificio r2</h1>
-          <img loading="lazy" src="img/edificios/R2.jpg" class="center img-width" alt="">
-          <button id="close_r2">Cerrar</button>
-        </div>
+    <div id="modal_u" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/U.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_u">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_q2" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/Q2.jpg" class="center img-width" alt="">
-          <button id="close_q2">Cerrar</button>
-        </div>
+    <div id="modal_s" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/S.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_s">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_p" class="modal-container">
-        <div class="modal modal-v3">
-          <h1>Edificio principal</h1>
-          <img loading="lazy" src="img/edificios/Central-p1.jpg" width="65%" class="center img-width" alt="">
-          <img loading="lazy" src="img/edificios/Central-p2.jpg" width="65%"  class="center img-width" alt="">
-          <button id="close_p">Cerrar</button>
-        </div>
+    <div id="modal_r2" class="modal-container">
+      <div class="modal">
+        <h1>Edificio r2</h1>
+        <img
+          loading="lazy"
+          src="img/edificios/R2.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_r2">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_f2" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/F2.jpg" class="center img-width" alt="">
-          <button id="close_f2">Cerrar</button>
-        </div>
+    <div id="modal_q2" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/Q2.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_q2">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_m2" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/M2.jpg" class="center img-width" alt="">
-          <button id="close_m2">Cerrar</button>
-        </div>
+    <div id="modal_p" class="modal-container">
+      <div class="modal modal-v3">
+        <h1>Edificio principal</h1>
+        <img
+          loading="lazy"
+          src="img/edificios/Central-p1.jpg"
+          width="65%"
+          class="center img-width"
+          alt=""
+        />
+        <img
+          loading="lazy"
+          src="img/edificios/Central-p2.jpg"
+          width="65%"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_p">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_x2" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/x2.jpg" class="center img-width" alt="">
-          <button id="close_x2">Cerrar</button>
-        </div>
+    <div id="modal_f2" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/F2.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_f2">Cerrar</button>
       </div>
+    </div>
 
-      <div id="modal_i" class="modal-container">
-        <div class="modal">
-          <img loading="lazy" src="img/edificios/i.jpg" class="center img-width" alt="">
-          <button id="close_i">Cerrar</button>
-        </div>
+    <div id="modal_m2" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/M2.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_m2">Cerrar</button>
       </div>
+    </div>
 
-<!-- footer -->
+    <div id="modal_x2" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/x2.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_x2">Cerrar</button>
+      </div>
+    </div>
+
+    <div id="modal_i" class="modal-container">
+      <div class="modal">
+        <img
+          loading="lazy"
+          src="img/edificios/i.jpg"
+          class="center img-width"
+          alt=""
+        />
+        <button id="close_i">Cerrar</button>
+      </div>
+    </div>
+
+    <!-- footer -->
     <footer class="footer">
-        <div class="Copyright">
-            <p>© Copyright - Todos los derechos reservados </p>
+      <div class="Copyright">
+        <p>© Copyright - Todos los derechos reservados</p>
+        <div class="names">
+          <span>Andrea Janeth</span>
+          <span>Hector Alejandro</span>
+          <span>Hector David</span>
+          <span>Fernando Tovar</span>
+          <span>Mario Duran</span>
         </div>
+      </div>
     </footer>
-    
+
     <script src="js/app.js"></script>
-</body>
+  </body>
 </html>
-
-
-
-
-
