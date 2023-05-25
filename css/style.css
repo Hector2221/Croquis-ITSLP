@@ -609,3 +609,28 @@ button:hover {
     font-size: 1.3rem;
     gap: 12px;
 }
+
+
+
+
+
+
+/* img fisico */
+
+.modal__content {
+    width: 100%;
+    padding: 8px;
+    position: absolute;
+    top: 78px;
+    left: 55px;
+    width: min-content;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.img__fisico {
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
