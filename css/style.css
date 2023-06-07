@@ -60,12 +60,14 @@ a {
 }
 
 .img-width {
+    /* width: 100%; */
     max-width: 100%;
     margin: auto auto;
 }
 
 /* navegacion */
 .header {
+    width: 100%;
     margin-bottom: 5%;
 }
 
@@ -118,7 +120,9 @@ h1 span {
     width: 100%;
     margin: auto;
     margin-bottom: 5rem;
-    overflow: hidden;
+    position: relative;
+   
+    /* overflow: hidden; */
 }
 
 @media (max-width: 1098px) {
@@ -130,11 +134,15 @@ h1 span {
 
 /* Button */
 button {
+    width: 100%;
+    height: 100%;
     background-color: var(--principal);
     color: var(--blanco);
     text-transform: uppercase;
     font-size: 10px;
     font-family: var(--fuentePrincipal);
+    border-radius: 4px;
+    /* border: 2px solid var(--Oscuro); */
     font-weight: bold;
 }
 
@@ -153,388 +161,321 @@ button:hover {
 
 /* estilo de botones de salones */
 .h {
-    width: 50px;
-    height: 55px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -295px;
-    left: 253px;
+    width: 48px;
+    height: 65px;
+    position: absolute;
+    top: 490px;
+    left: 739px;
 }
 
 .h1 {
-    width: 60px;
-    height: 45px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -415px;
-    left: 665px;
+    width: 56px;
+    height: 60px;
+    position: absolute;
+    top: 340px;
+    left: 839px;
 }
 
 .h2 {
-    width: 70px;
-    height: 45px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -274px;
-    left: 770px;
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    top: 530px;
+    left: 822px;
 }
 
 .h3 {
-    width: 45px;
-    height: 70px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -340px;
-    left: 860px;
-    transform: scale(1.1);
+    width: 51px;
+    height: 84px;
+    position: absolute;
+    top: 423px;
+    left: 857px;
+   
 }
+
 
 .h5 {
-    width: 75px;
-    height: 60px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -405px;
-    left: 695px;
+    width: 81px;
+    height: 78px;
+    position: absolute;
+    top: 341px;
+    left: 922px;
 }
 
+
 .h6 {
-    width: 45px;
-    height: 65px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -340px;
-    left: 835px;
+    width: 44px;
+    height: 77px;
+    position: absolute;
+    top: 429px;
+    left: 957px;
+   
 }
 
 .o2 {
     width: 50px;
-    height: 40px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -185px;
-    left: 520px;
+    height: 49px;
+    position: absolute;
+    top: 640px;
+    left: 827px;
 }
 
 .o5 {
-    width: 70px;
-    height: 40px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -415px;
-    left: 365px;
+    width: 69px;
+    height: 56px;
+    position: absolute;
+    top: 340px;
+    left: 728px;
 }
 
 .o {
     width: 50px;
-    height: 20px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -375px;
-    left: 305px;
+    height: 29px;
+    position: absolute;
+    top: 405px;
+    left: 738px;
 }
 
 .g {
     width: 50px;
-    height: 40px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -220px;
-    left: 198px;
+    height: 45px;
+    position: absolute;
+    top: 596px;
+    left: 735px;
 }
 
 .g2 {
-    width: 100px;
-    height: 25px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -155px;
-    left: 92px;
-    transform: scaleX(1.1);
+    width: 119px;
+    height: 28px;
+    position: absolute;
+    top: 687px;
+    left: 678px;
+  
 }
 
 .n {
-    width: 30px;
-    height: 65px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -160px;
-    left: -45px;
+    width: 28px;
+    height: 84px;
+    position: absolute;
+    top: 654px;
+    left: 648px;
 }
 
 .d {
-    width: 30px;
-    height: 55px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -240px;
-    left: -65px;
+    width: 23px;
+    height: 70px;
+    position: absolute;
+    top: 556px;
+    left: 666px;
 }
 
 .j {
     width: 30px;
-    height: 55px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -320px;
-    left: -110px;
+    height: 69px;
+    position: absolute;
+    top: 457px;
+    left: 647px;
 }
 
 .k {
-    width: 30px;
-    height: 73px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -345px;
-    left: -220px;
+    width: 27px;
+    height: 91px;
+    position: absolute;
+    top: 412px;
+    left: 574px;
 }
 
 .e {
-    width: 80px;
-    height: 25px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -270px;
-    left: -260px;
+    width: 82px;
+    height: 29px;
+    position: absolute;
+    top: 543px;
+    left: 560px;
 }
 
 .c {
-    width: 30px;
-    height: 78px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -185px;
-    left: -315px;
+    width: 24px;
+    height: 102px;
+    position: absolute;
+    top: 614px;
+    left: 593px;
 }
 
 .b {
     width: 30px;
-    height: 78px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -160px;
-    left: -402px;
+    height: 82px;
+    position: absolute;
+    top: 664px;
+    left: 536px;
 }
 
 .a {
-    width: 30px;
-    height: 78px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -200px;
-    left: -492px;
+    width: 26px;
+    height: 85px;
+    position: absolute;
+    top: 608px;
+    left: 481px;
 }
 
 .f {
-    width: 30px;
-    height: 55px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -293px;
-    left: -510px;
+    width: 27px;
+    height: 71px;
+    position: absolute;
+    top: 491px;
+    left: 493px;
 }
 
 .m {
-    width: 30px;
-    height: 70px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -400px;
-    left: -527px;
+    width: 26px;
+    height: 84px;
+    position: absolute;
+    top: 349px;
+    left: 510px;
 }
 
 .z {
     width: 30px;
-    height: 40px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -393px;
-    left: 424px;
+    height: 44px;
+    position: absolute;
+    top: 472px;
+    left: 423px;
 }
 
 .v {
-    width: 60px;
-    height: 65px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -328px;
-    left: 278px;
+    width: 56px;
+    height: 79px;
+    position: absolute;
+    top: 540px;
+    left: 312px;
 }
 
 .x {
-    width: 30px;
-    height: 55px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -400px;
-    left: 215px;
+    width: 24px;
+    height: 65px;
+    position: absolute;
+    top: 453px;
+    left: 312px;
 }
 
 .w {
-    width: 30px;
-    height: 55px;
+    width: 24px;
+    height: 63px;
     border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -405px;
-    left: 117px;
+    position: absolute;
+    top: 449px;
+    left: 249px;
 }
 
 .q {
-    width: 30px;
-    height: 55px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -335px;
-    left: 73px;
+    width: 25px;
+    height: 65px;
+    position: absolute;
+    top: 539px;
+    left: 234px;
 }
 
 .t {
-    width: 30px;
-    height: 50px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -405px;
-    left: 15px;
+    width: 26px;
+    height: 52px;
+    position: absolute;
+    top: 449px;
+    left: 208px;
+
 }
 
 .r2 {
-    width: 30px;
-    height: 50px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -345px;
-    left: -53px;
+    width: 25px;
+    height: 60px;
+    position: absolute;
+    top: 530px;
+    left: 174px;
 }
+
 
 .u {
-    width: 45px;
-    height: 40px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -450px;
-    left: -130px;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    top: 400px;
+    left: 128px;
 }
 
+    
+
 .s {
-    width: 30px;
-    height: 75px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -372px;
-    left: -173px;
+    width: 25px;
+    height: 98px;
+    position: absolute;
+    top: 473px;
+    left: 138px;
 }
 
 .r {
-    width: 30px;
-    height: 60px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -280px;
-    left: -176px;
+    width: 23px;
+    height: 70px;
+    position: absolute;
+    top: 605px;
+    left: 166px;
 }
 
 .q2 {
-    width: 30px;
-    height: 45px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -275px;
-    left: -173px;
+    width: 27px;
+    height: 58px;
+    position: absolute;
+    top: 617px;
+    left: 198px;
 }
 
 .p {
-    width: 70px;
-    height: 50px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -210px;
-    left: -97px;
+    width: 67px;
+    height: 39px;
+    position: absolute;
+    top: 718px;
+    left: 312px;
 }
+
 
 .f2 {
     width: 30px;
-    height: 30px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -420px;
-    left: -5px;
+    height: 32px;
+    position: absolute;
+    top: 444px;
+    left: 472px;
 }
 
 .m2 {
     width: 30px;
-    height: 20px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    top: -420px;
-    left: 2px;
+    height: 28px;
+    position: absolute;
+    top: 448px;
+    left: 508px;
 }
 
 .l {
-    width: 45px;
-    height: 30px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
+    width: 46px;
+    height: 37px;
+    position: absolute;
     font-size: 8px;
-    top: -292px;
-    left: -132px;
+    top: 608px;
+    left: 407px;
 }
 
 .x2 {
-    width: 40px;
-    height: 20px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
-    font-size: 8px;
-    top: -490px;
-    left: -290px;
+    width: 36px;
+    height: 22px;
+    position: absolute;
+    font-size: 10px;
+    top: 359px;
+    left: 297px;
 }
 
 .i {
-    width: 30px;
-    height: 20px;
-    border-radius: 4px;
-    border: 2px solid var(--Oscuro);
-    position: relative;
+    width: 25px;
+    height: 25px;
+    position: absolute;
     font-size: 8px;
-    top: -410px;
-    left: 62px;
+    top: 460px;
+    left: 695px;
 }
 
 /* estilo de ventana modal */
@@ -552,6 +493,7 @@ button:hover {
     width: 100vw;
     transition: opacity 0.3s ease;
     margin-top: 2%;
+    overflow: scroll;
 }
 
 .show {
@@ -560,10 +502,16 @@ button:hover {
 }
 
 .modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
     background-color: #fff;
     width: 600px;
     max-width: 100%;
-    padding: 30px 30px;
+    padding: 30px 40px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -571,7 +519,7 @@ button:hover {
 }
 
 @media (min-width: 768px) {
-    .modal-v2 {
+    /* .modal-v2 {
         width: 1000px;
         max-width: 100%;
     }
@@ -579,7 +527,7 @@ button:hover {
     .modal-v3 {
         width: 800px;
         max-width: 100%;
-    }
+    } */
 }
 
 
@@ -618,19 +566,25 @@ button:hover {
 /* img fisico */
 
 .modal__content {
-    width: 100%;
+    width: 85%;
     padding: 8px;
-    position: absolute;
+    /* position: absolute; */
     top: 78px;
     left: 55px;
-    width: min-content;
+    /* width: min-content; */
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
 
 }
 
 .img__fisico {
-    width: 300px;
+    width: 85%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* boton cerrar de los modales */
+.modal-container .btn-cerrar{
+    width: 35%;
 }
